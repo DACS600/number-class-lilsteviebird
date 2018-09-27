@@ -1,0 +1,12 @@
+Steven Li
+
+Assignment:  Number Class
+Grade:  check/check-  (See Course Expectations for interpretation)
+
+1 – You have methods with return types that do not return anything and will not work.  All of your isSomething methods.  
+
+2 – You do not setup instance methods in your .h file, just variables.  Does this even run for you?  I do not know how.  You appear to be missing some important concepts about classes and how they are setup in Objective-C.
+
+3 – in your isPerfectSquare method you really should stop checking and exit the method as soon as you determine that it is a perfect square.
+
+4 – The nearest perfect 
