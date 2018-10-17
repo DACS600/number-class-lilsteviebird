@@ -1,12 +1,16 @@
 Steven Li
 
 Assignment:  Number Class
-Grade:  check/check-  (See Course Expectations for interpretation)
+Grade:  check  (See Course Expectations for interpretation)
 
-1 – You have methods with return types that do not return anything and will not work.  All of your isSomething methods.  
+1 – You have methods with return types that do not return anything and should not work.  For example, isEven says it will
+return a boolean and yet it never returns anything.  It just prints out a message.  Not a good practice.  Let the method that calls it do the
+printing out.  In isPrime you mix and match with YEsy and No and true and false.  Be consistent.
 
-2 – You do not setup instance methods in your .h file, just variables.  Does this even run for you?  I do not know how.  You appear to be missing some important concepts about classes and how they are setup in Objective-C.
+2 – You do not setup instance methods in your .h file, just variables.  Does this even run for you?  I do not know how.  
+You appear to be missing some important concepts about classes and how they are setup in Objective-C.
 
-3 – in your isPerfectSquare method you really should stop checking and exit the method as soon as you determine that it is a perfect square.
+3 – In your isPerfectSquare method you really should stop checking and exit the method as soon as you determine that it is a perfect square.
 
-4 – The nearest perfect 
+4 – The nearest perfect square method only looks for numbers below the given value.  Couldn't there be a close perfect square greater 
+than the number.
